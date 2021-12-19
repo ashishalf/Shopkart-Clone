@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(16, 140, 241);
+    color: white;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0px 25px ;
+    width: 83px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw; 
+    height: 23px;
+    border-radius: 5px;
+    margin:0px 10px 0px 150px;
+    padding: 0px 12px;
+}
+.btn{
+    background-color:white;
+    border-radius: 5px;
+    padding: 3px 7px;
+    color: rgb(152, 154, 156);
+    font-weight: bold;
+}
+.slider{
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    align-items: center;
+}
+.card{
+    
+    max-width: 80vw;
+    margin: auto;
+    overflow: hidden;
+}
+.card-item{
+    margin: 0px 30px;
+    width: 12vw;
+    display: inline-flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.card h2{
+    margin: 15px 20px;
+    padding: 12px 12px;
+}
+.my-2{
+    margin: 26px 0px;
+}
+.my-1{
+    margin: 12px 0px;
+}
+.text-center{
+    text-align: center;
+}
+nav ul{
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 18px;
+    margin: 2px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(241, 216, 187);
+    /* font-weight: bolder; */
+}
+
+.container{
+    min-height: calc(100vh - 12vh - 8vh) ;
+}
+.allcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin: 12px;
+    height: 12vh;
+    background-color: rgb(16, 140, 241);
+    color: white;
+}
